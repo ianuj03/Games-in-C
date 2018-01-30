@@ -1,3 +1,8 @@
+/*
+* This Program is used to make a Puzzle Game in C
+* Author: Anuj Jain
+* @ianuj03
+*/
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -131,7 +136,7 @@ void play()
 		goto SUB;				
 }
 void score(){
-	FILE *best_file=fopen("best.txt","r+");
+	FILE *best_file=fopen("best1.txt","r+");
 	if(fscanf (best_file, "%s", &best)!=EOF)
 		fscanf (best_file, "%s", &best);
 	else
